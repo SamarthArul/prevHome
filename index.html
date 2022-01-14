@@ -1,73 +1,96 @@
- <!doctype html>
+<!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
-<title>Welcome To My Portfolio</title>
+<title>Welcome!</title>
 	
-	<link rel="stylesheet" type="text/css" href="ArulPortfolioCSS.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="/Users/samartharul/Desktop/Website/Lightbox Pages/Lightbox CSS/LightboxHomeCSS.css" rel="stylesheet">
+	<link href="path/to/lightbox.css" rel="stylesheet">
+	<link href="../../../../lightbox2-master/dist/css/lightbox.min.css" rel="stylesheet">
+	
 	
 	
 </head>
 
+<body>
+	
+	
+	
+	
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="LightboxHome.html">About</a>
+  <a href="LightboxGallery.html">Gallery</a>
+  <a href="LightboxContact.html">Contact</a>
+</div>
 
-	
-	<div id="title">
-	
-		
-		
-		
-		
-		
-		<div id="text">
-		<p> 
-			Welcome To Samarth's Portfolio
-		
-		</p>
-		</div>
-			
-			
-			
-	</div>
-	
-	
-	
-	<div id="intro">
-	<p> 
-	
-		Hi. I'm Samarth. I'm a rising junior in highschool and very bored during quarantine. That's how I started this.
-		
-	</p>
-	 </div>
+
+<span style="font-size:28px;cursor:pointer" onclick="openNav()">&#9776;    Navigation</span>
 
 	
 	
 	
 	
+	
+	
+	<div class="main">
+
+<h1>About Us!</h1>
+<hr>
+
+<h2>MY STORY</h2>
+<p></p>
+
+
+
+<div class="content">
+	
+	<a href="../../Lightbox Images/homephoto.jpg" data-lightbox="final" data-title="Me, Myself and I">
 		
+  <img src="../../Lightbox Images/homephoto.jpg" alt="Bear" style="width:100%">
 		
-		
-<div id="portfolioLink">
-		
+	</a>
 	
-		<a href="GalleryPage.PNG">
-			
-			<center>
-			<p>
-			
-				Click HERE for a look at my Web Development 1 and 2 Portfolio!
-			
-			</p>
-			</center>
-			</a>
-			
+	
+  <h3>My name is Samarth Arul. I am a...u...</h3>
+  <p>Thanks for visiting my gallery page. Toggle this website using the navigation tools near the top-left. I.</p>
+	
+	<br>
+	<ul style="list-style-type:square;">
+  <li>I own oveave it.</li>
+  <li>I hou can view <a id="reviewlink" href="https://www.weddingwire.com/reviews/ws-photography-chicago/0ec45091fb278fd8.html">HERE.</a></li>
+  <li>I have a ve a spot.</li>
+  <li>Whethee payments...</li>
+</ul>
 	
 	
 	
 	
-		</div>
+</div>
+
+</div>
 	
 	
 	
+
+	
+	
+	<script src="../../../../lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script>
+	
+	<script>
+	
+	
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+	
+	</script>
+	
+
 </body>
 </html>
