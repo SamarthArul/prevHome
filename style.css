@@ -18,7 +18,8 @@ body {
 
 .profilepicture {
   border-radius: 50%;
-  height: auto;
+  height: 50%;
+  width: 50%;
   display: block;
   margin: auto;
   box-shadow: 0px 0px 20px 2px grey;
