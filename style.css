@@ -207,5 +207,11 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
+#bottom-text {
+    
+    vertical-align: bottom;
+    
+}
+
     
 }
