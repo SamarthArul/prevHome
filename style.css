@@ -108,6 +108,7 @@ img{border-radius: 5px;}
 .main {
   max-width: 1000px;
   margin: auto;
+  text-align: center;
 }
 
 h1 {
