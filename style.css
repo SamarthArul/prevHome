@@ -29,7 +29,7 @@ span {
   width: 24%;
   height: auto;
   display: block;
-  margin: 50px auto;
+  margin-top: 50px;
     margin-left: 30px;
   box-shadow: 0px 0px 20px 2px grey;
   overflow: hidden;
@@ -110,17 +110,26 @@ span {
   .sidenav a {font-size: 12px;}
 }
 	
-
+@media only screen and (max-width: 725) {
+    h1 {
+  font-size: 50px;
+    text-align: left;
+    float: right;
+    margin-top: 110px;
+    margin-right: 100px;
+}
+}
 
 .main {
   margin: auto;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 350%;
     text-align: left;
     float: right;
-    margin: 110px 100px;
+    margin-top: 110px;
+    margin-right: 45px;
 }
 
 .row {
