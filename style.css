@@ -19,7 +19,7 @@ body {
 
 .profilepicture {
   border-radius: 50%;
-  width: 32%;
+ /* width: 32%; */ 
   height: auto;
   display: block;
   margin: auto;
