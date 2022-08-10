@@ -14,10 +14,8 @@ body {
 }
 
 span {
-  height: 100%; 
-  width: 150px; 
   position: fixed; 
-  z-index: 1; 
+  float: left;
   top: 10px;
   left: 20px;
   padding-top: 5px; 
@@ -80,7 +78,7 @@ span {
 
 
 .sidenav a {
-  padding: 8px 8px 8px 15px;
+  padding: 8px 8px 8px 20px;
   text-decoration: none;
   font-size: 25px;
   color: #989898;
@@ -107,10 +105,10 @@ span {
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 12px;}
+  .sidenav a {font-size: 17px;}
 }
 	
-@media only screen and (max-width: 725) {
+@media screen and (max-width: 600px) {
     h1 {
   font-size: 50px;
     text-align: left;
