@@ -7,7 +7,7 @@
 body {
   margin:auto;
   text-align: left;
-  max-width:750px;
+  max-width:700px;
   line-height:1.6;
   background-color:#ffffff;
 
@@ -18,8 +18,8 @@ span {
   width: 150px; 
   position: fixed; 
   z-index: 1; 
-  top: 1px;
-  left: 10px;
+  top: 5px;
+  left: 20px;
   padding-top: 5px; 
 }
 
@@ -29,7 +29,7 @@ span {
   width: 24%;
   height: auto;
   display: block;
-  margin: auto;
+  margin: 25px auto;
   box-shadow: 0px 0px 20px 2px grey;
 }
 
@@ -116,6 +116,7 @@ span {
 h1 {
   font-size: 50px;
   word-break: break-all;
+text-align: center;
 }
 
 .row {
